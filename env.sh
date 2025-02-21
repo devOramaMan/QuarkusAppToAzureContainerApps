@@ -1,0 +1,9 @@
+export AZ_PROJECT_AUD="azure-deploy-quarkus-next"
+export AZ_RESOURCE_GROUP="rg${AZ_PROJECT_AUD}"
+export AZ_LOCATION=northeurope
+export AZ_CONTAINERAPP="ca${AZ_PROJECT_AUD}"
+export AZ_CONTAINERAPP_ENV="cae${AZ_PROJECT_AUD}"
+export AZ_POSTGRES_DB_NAME="postgres${AZ_PROJECT_AUD}"
+export AZ_POSTGRES_USERNAME="quarkus"
+export AZ_POSTGRES_PASSWORD="OldSchoolFool_81!"
+export AZ_POSTGRES_SERVER_NAME="psql${AZ_PROJECT_AUD}"
